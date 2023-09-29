@@ -1,0 +1,148 @@
+:root {
+  --main-bg-color: #efe6db;
+  --text-color: #6a6a6a;
+  --text-color2: #375745;
+  --heading: "Readex Pro", sans-serif;
+  --heading2: "Poppins", sans-serif;
+}
+
+.project-us {
+  padding: 8rem 0;
+}
+.project-us h1 {
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 600;
+  color: var(--text-color);
+  font-family: var(--heading);
+}
+.project-us p,
+.project-us p a {
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: var(--heading2);
+  color: var(--text-color2);
+  max-width: 47.9375rem;
+}
+
+.project-us .img-project {
+  position: absolute;
+  width: 9.46644rem;
+  top: 3rem;
+  left: 47rem;
+}
+.project-us .project-input input {
+  width: 20rem;
+  height: 3rem;
+  background: rgba(239, 230, 219, 0.5);
+  border-radius: 0;
+  outline: none;
+}
+.project-us .project-input .btn {
+  background-color: var(--text-color2);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  color: white;
+}
+.list-project {
+  gap: 0.8rem;
+}
+.list-project button {
+  color: #375745;
+  background-color: #fff;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+  font-weight: 500;
+  font-size: 1.1rem;
+  font-family: var(--heading2);
+  text-decoration: none;
+  padding: 0.1rem 0.3rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+  border: none;
+}
+.list-project button.active {
+  background-color: var(--text-color2);
+  color: white;
+}
+.filter-card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+.card-project {
+  flex-basis: 20rem;
+  padding: 0;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25);
+}
+
+.card-project.hide {
+  display: none;
+}
+.card-project img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+/* media queries */
+@media (max-width: 1760px) {
+  html {
+    font-size: 90%;
+  }
+  .hero {
+    overflow-x: hidden;
+  }
+  .hero .right img {
+    width: 60rem;
+  }
+}
+/* media queries */
+@media (max-width: 1366px) {
+  html {
+    font-size: 70%;
+  }
+}
+@media (max-width: 1097px) {
+  html {
+    font-size: 70%;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 60%;
+  }
+  .project-us {
+    padding: 6rem 5%;
+  }
+}
+@media (max-width: 570px) {
+  html {
+    font-size: 55%;
+  }
+  .project-us .img-project {
+    position: absolute;
+    width: 7rem;
+    top: 7rem;
+    left: 40rem;
+    display: none;
+    z-index: -1;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+  .list-project a {
+    font-size: 1rem;
+  }
+}
+/* media queries courousel*/
+@media (max-width: 390px) {
+  html {
+    font-size: 50%;
+  }
+}
