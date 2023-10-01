@@ -1,0 +1,156 @@
+:root {
+  --main-bg-color: #efe6db;
+  --text-color: #6a6a6a;
+  --text-color2: #375745;
+  --heading: "Readex Pro", sans-serif;
+  --heading2: "Poppins", sans-serif;
+}
+body {
+  height: 100vh;
+  background: #f2ede6;
+}
+
+.contact .left {
+  height: 100vh;
+}
+.contact .left .img-left {
+  width: 37.5rem;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+}
+.contact .left .img-2 {
+  display: none;
+}
+
+.contact .right {
+  padding: 5rem 0;
+}
+.contact .right .header {
+  margin-top: 1rem;
+}
+.contact .right .quest {
+  margin-top: 2rem;
+}
+
+.contact a {
+  padding: 0.4375rem 0.9375rem;
+  background-color: var(--text-color2);
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.contact a:hover {
+  background-color: var(--text-color);
+}
+.contact span {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: var(--heading);
+  color: black;
+}
+.contact h1 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: var(--heading);
+  color: var(--text-color2);
+}
+.contact p {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  font-family: var(--heading2);
+  color: var(--text-color);
+}
+
+.contact .right .top input {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  background: #fff;
+  outline-color: #375745;
+}
+.contact .right .mid input {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  background: #fff;
+  outline-color: #375745;
+}
+.contact .right .mid button {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  background: var(--text-color2);
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+  color: #fff;
+}
+
+.contact .contact-sosmed .link {
+  font-size: 2rem;
+}
+.contact .contact-sosmed .link:hover {
+  background-color: var(--text-color);
+}
+/* media queries */
+@media (max-width: 1760px) {
+  html {
+    font-size: 90%;
+  }
+}
+/* media queries */
+@media (max-width: 1366px) {
+  html {
+    font-size: 70%;
+  }
+}
+@media (max-width: 1097px) {
+  html {
+    font-size: 70%;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 60%;
+  }
+  .contact {
+    padding: 6rem 5%;
+  }
+  .contact .left {
+    height: auto;
+  }
+  .contact .left .img-left {
+    display: none;
+  }
+  .contact .left .img-2 {
+    display: block;
+    width: 100%;
+  }
+}
+@media (max-width: 570px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}
+/* media queries courousel*/
+@media (max-width: 390px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 380px) {
+  html {
+    font-size: 50%;
+  }
+}

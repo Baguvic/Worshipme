@@ -11,6 +11,10 @@
   padding: 1.5rem 0;
   z-index: 999;
 }
+.nice-color {
+  background-color: rgb(255, 244, 230) !important;
+  border-bottom: 1px solid var(--text-color2);
+}
 .navbar .navbar-brand {
   font-family: var(--heading);
   font-size: 1.5rem;
@@ -431,6 +435,7 @@
   background: #fcf7f1;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
   padding: 0.9375rem;
+  margin-bottom: 3rem;
 }
 .card-team img {
   width: 100%;
@@ -463,6 +468,9 @@
 .card-team .flut {
   background-color: #67181c;
 }
+.card-team .back {
+  background-color: #18671d;
+}
 
 .card-team .sosmed {
   display: flex;
@@ -476,6 +484,16 @@
   text-decoration: none;
   border-radius: 0.6875rem;
   background: #fff;
+  box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.2);
+  transition: linear 0.3s;
+}
+.card-team .sosmed a:hover {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 2rem;
+  background: var(--text-color2);
   box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.2);
 }
 

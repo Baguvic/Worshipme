@@ -1,0 +1,161 @@
+:root {
+  --main-bg-color: #efe6db;
+  --text-color: #6a6a6a;
+  --text-color2: #375745;
+  --heading: "Readex Pro", sans-serif;
+  --heading2: "Poppins", sans-serif;
+}
+.team-us {
+  padding: 3rem 0;
+}
+.team-us .top {
+  padding: 2rem;
+  height: 25.0625rem;
+  margin-top: 4rem;
+  position: relative;
+  border-radius: 3.125rem;
+  background: rgba(24, 103, 87, 0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.team-us .top h1 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: var(--heading);
+  color: var(--text-color);
+}
+.team-us .top h1 span {
+  color: var(--text-color2);
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: var(--heading);
+}
+.team-us .top p {
+  color: var(--text-color);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  font-family: var(--heading2);
+}
+.team-us .top .left {
+  position: absolute;
+  width: 24.8125rem;
+}
+.team-us .out {
+  padding: 1rem;
+}
+.team-us .top .img-1 {
+  width: 14.0625rem;
+}
+.team-us .top .img-2 {
+  width: 14.3125rem;
+  position: absolute;
+  bottom: 1rem;
+}
+.team-us .top .img-3 {
+  width: 22.1875rem;
+  position: absolute;
+  top: 3rem;
+  right: 7rem;
+  z-index: -1;
+}
+.team-us .bot h1 {
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 600;
+  font-family: var(--heading);
+  color: var(--text-color);
+}
+.team-us .bot h1 span {
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 600;
+  font-family: var(--heading);
+  color: var(--text-color2);
+}
+.team-us .bot p {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--text-color);
+  font-family: var(--heading2);
+}
+
+.team-us .real-team {
+  margin-top: -4rem;
+}
+/* media queries */
+@media (max-width: 1760px) {
+  html {
+    font-size: 90%;
+  }
+}
+/* media queries */
+@media (max-width: 1366px) {
+  html {
+    font-size: 70%;
+  }
+}
+@media (max-width: 1097px) {
+  html {
+    font-size: 70%;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 60%;
+  }
+  .team-us {
+    padding: 2rem 5%;
+  }
+  .team-us .top {
+    height: auto;
+  }
+  .team-us .out {
+    padding: 1rem;
+    margin-top: 4rem;
+    text-align: center;
+  }
+  .team-us .top .img-1 {
+    width: 14.0625rem;
+  }
+  .team-us .top .img-2 {
+    width: 14.3125rem;
+    position: static;
+    bottom: 1rem;
+  }
+  .team-us .top .img-3 {
+    width: 20rem;
+    position: absolute;
+    top: 14rem;
+    right: 2rem;
+    /* left: 6rem;
+    top: 17rem; */
+    z-index: -1;
+  }
+  .team-us .real-team {
+    margin-top: 0;
+  }
+}
+@media (max-width: 570px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}
+/* media queries courousel*/
+@media (max-width: 390px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 380px) {
+  html {
+    font-size: 50%;
+  }
+}

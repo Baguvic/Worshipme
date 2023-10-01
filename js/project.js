@@ -24,19 +24,22 @@ filterButtons.forEach((button) =>
   button.addEventListener("click", filterCards)
 );
 
+// search
 function search() {
-  let input, filter, filterCard, span, h3;
-  input = document.getElementById("search-input");
-  filter = input.value.toUpperCase();
-  filterCard = document.getElementById("filter-card");
-  h3 = filterCard.getElementsByTagName("h3");
-  for (i = 0; i < h3.length; i++) {
-    a = h3[i].getElementsByTagName("a")[0];
-    textValue = a.textContent || a.innerText;
-    if (textValue.toUpperCase().indexOf(filter) > -1) {
-      h3[i].style.display = "";
+  let filter = document.getElementById("search-input").value.toUpperCase();
+  let item = document.querySelectorAll(".card-project");
+  let h3Elements = document.getElementsByTagName("h3");
+  let spanElements = document.querySelectorAll(".role");
+
+  for (let i = 0; i < item.length; i++) {
+    let h3Text = h3Elements[i].innerHTML || h3Elements[i].textContent;
+    let spanText = spanElements[i].innerHTML || spanElements[i].textContent;
+    let value = h3Text + spanText;
+
+    if (value.toUpperCase().indexOf(filter) !== -1) {
+      item[i].style.display = "";
     } else {
-      h3[i].style.display = "none";
+      item[i].style.display = "none";
     }
   }
 }
